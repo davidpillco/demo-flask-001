@@ -20,7 +20,7 @@ def suma():
 @app.route('/listado')
 def listado():
     cadena += "<h4>Ejemplos de Paises por Contientes</h4><br>"
-    cadena2 =  <ul><li type="circle">AMÉRICA</li></ul><br><li type="square">Ecuador</li><br><li type="square">Colombia</li>
+    cadena2 =  <ul><li type="circle">AMERICA</li></ul><br><li type="square">Ecuador</li><br><li type="square">Colombia</li>
     
     return cadena
     return cadena2
