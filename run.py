@@ -19,11 +19,9 @@ def suma():
 
 @app.route('/listado')
 def listado():
-    cadena += "<h4>Ejemplos de Paises por Contientes</h4><br>"
-    cadena2 =  <ul><li type="circle">AMERICA</li></ul><br><li type="square">Ecuador</li><br><li type="square">Colombia</li>
-    
+    cadena = "<h4>Continentes</h4><ol><li>America</li><li>Europa</li><li>Africa</li><li>Oceania</li><li>Antartida</li>""    
     return cadena
-    return cadena2
+
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=8000, debug=True)
